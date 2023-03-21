@@ -23,4 +23,5 @@ https://user-images.githubusercontent.com/25151348/226670711-c6579233-e75f-4286-
 https://user-images.githubusercontent.com/25151348/226671524-f96075f7-7151-44ee-9453-d8caaee2e3cd.mov
 
 ### Points of improvement
-Giving each entry into the guessArray a unique id to iterate over rather than create an index/inc variable to use as unique key when iterating over the map.
+- Giving each entry into the guessArray a unique id to iterate over rather than create an index/inc variable to use as unique key when iterating over the map.
+- More input sanitation (no spaces between letters, no numbers etc.)
