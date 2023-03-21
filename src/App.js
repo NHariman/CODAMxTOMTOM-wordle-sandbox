@@ -18,7 +18,6 @@ import {
   so it does not continuously update.
 */
 const wordleOfTheSession = words[Math.floor(Math.random() * 5757)];
-console.log("wordle answer: ", wordleOfTheSession);
 
 export default function App() {
   const [guess, setGuess] = useState("");
